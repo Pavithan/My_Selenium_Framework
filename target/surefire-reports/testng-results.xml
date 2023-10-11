@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-05T17:04:09 IST" name="ACTUAL TESTING" finished-at="2023-10-05T17:04:47 IST" duration-ms="37568">
+    <groups>
+      <group name="purchase">
+        <method signature="Testcaseactual.finaltest(java.util.HashMap)[pri:0, instance:xemo.Tests.Testcaseactual@210ab13f]" name="finaltest" class="xemo.Tests.Testcaseactual"/>
+      </group> <!-- purchase -->
+    </groups>
+    <test started-at="2023-10-05T17:04:09 IST" name="Error Validation" finished-at="2023-10-05T17:04:33 IST" duration-ms="24017">
+      <class name="xemo.Tests.errorvalidations">
+        <test-method is-config="true" signature="launchapplication()[pri:0, instance:xemo.Tests.errorvalidations@23e84203]" started-at="2023-10-05T17:04:09 IST" name="launchapplication" finished-at="2023-10-05T17:04:25 IST" duration-ms="15451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapplication -->
+        <test-method signature="errorcatch()[pri:0, instance:xemo.Tests.errorvalidations@23e84203]" started-at="2023-10-05T17:04:25 IST" name="errorcatch" finished-at="2023-10-05T17:04:25 IST" duration-ms="563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- errorcatch -->
+        <test-method is-config="true" signature="driverclose()[pri:0, instance:xemo.Tests.errorvalidations@23e84203]" started-at="2023-10-05T17:04:25 IST" name="driverclose" finished-at="2023-10-05T17:04:25 IST" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverclose -->
+        <test-method is-config="true" signature="launchapplication()[pri:0, instance:xemo.Tests.errorvalidations@23e84203]" started-at="2023-10-05T17:04:25 IST" name="launchapplication" finished-at="2023-10-05T17:04:31 IST" duration-ms="5337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapplication -->
+        <test-method signature="errorcatching()[pri:0, instance:xemo.Tests.errorvalidations@23e84203]" started-at="2023-10-05T17:04:31 IST" name="errorcatching" finished-at="2023-10-05T17:04:33 IST" duration-ms="2552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- errorcatching -->
+        <test-method is-config="true" signature="driverclose()[pri:0, instance:xemo.Tests.errorvalidations@23e84203]" started-at="2023-10-05T17:04:33 IST" name="driverclose" finished-at="2023-10-05T17:04:33 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverclose -->
+      </class> <!-- xemo.Tests.errorvalidations -->
+    </test> <!-- Error Validation -->
+    <test started-at="2023-10-05T17:04:09 IST" name="Main Test" finished-at="2023-10-05T17:04:47 IST" duration-ms="37568">
+      <class name="xemo.Tests.Testcaseactual">
+        <test-method is-config="true" signature="launchapplication()[pri:0, instance:xemo.Tests.Testcaseactual@210ab13f]" started-at="2023-10-05T17:04:10 IST" name="launchapplication" finished-at="2023-10-05T17:04:24 IST" duration-ms="14592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapplication -->
+        <test-method signature="finaltest(java.util.HashMap)[pri:0, instance:xemo.Tests.Testcaseactual@210ab13f]" started-at="2023-10-05T17:04:24 IST" name="finaltest" data-provider="getdata" finished-at="2023-10-05T17:04:29 IST" duration-ms="5331" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productname=ADIDAS ORIGINAL, password=Kuttima#1, email=sripavithran99@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finaltest -->
+        <test-method is-config="true" signature="driverclose()[pri:0, instance:xemo.Tests.Testcaseactual@210ab13f]" started-at="2023-10-05T17:04:29 IST" name="driverclose" finished-at="2023-10-05T17:04:29 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverclose -->
+        <test-method is-config="true" signature="launchapplication()[pri:0, instance:xemo.Tests.Testcaseactual@210ab13f]" started-at="2023-10-05T17:04:29 IST" name="launchapplication" finished-at="2023-10-05T17:04:34 IST" duration-ms="4689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapplication -->
+        <test-method signature="finaltest(java.util.HashMap)[pri:0, instance:xemo.Tests.Testcaseactual@210ab13f]" started-at="2023-10-05T17:04:34 IST" name="finaltest" data-provider="getdata" finished-at="2023-10-05T17:04:39 IST" duration-ms="4779" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productname=ADIDAS ORIGINAL, password=Kuttima#1, email=pavithran.n@slxlealrning.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finaltest -->
+        <test-method is-config="true" signature="driverclose()[pri:0, instance:xemo.Tests.Testcaseactual@210ab13f]" started-at="2023-10-05T17:04:39 IST" name="driverclose" finished-at="2023-10-05T17:04:39 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverclose -->
+        <test-method is-config="true" signature="launchapplication()[pri:0, instance:xemo.Tests.Testcaseactual@210ab13f]" started-at="2023-10-05T17:04:39 IST" name="launchapplication" finished-at="2023-10-05T17:04:46 IST" duration-ms="6793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapplication -->
+        <test-method signature="orderhistory()[pri:0, instance:xemo.Tests.Testcaseactual@210ab13f]" started-at="2023-10-05T17:04:46 IST" name="orderhistory" finished-at="2023-10-05T17:04:47 IST" depends-on-methods="xemo.Tests.Testcaseactual.finaltest" duration-ms="976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderhistory -->
+        <test-method is-config="true" signature="driverclose()[pri:0, instance:xemo.Tests.Testcaseactual@210ab13f]" started-at="2023-10-05T17:04:47 IST" name="driverclose" finished-at="2023-10-05T17:04:47 IST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverclose -->
+      </class> <!-- xemo.Tests.Testcaseactual -->
+    </test> <!-- Main Test -->
+  </suite> <!-- ACTUAL TESTING -->
+</testng-results>
